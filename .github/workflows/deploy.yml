@@ -57,7 +57,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Get build artifacts
         uses: actions/download-artifact@v4
-        with:artifact
+        with:
           name: dist-files
           path: ./dist
       - name: Output contents
